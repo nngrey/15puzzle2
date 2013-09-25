@@ -1,0 +1,130 @@
+.container
+{
+position:absolute; 
+height:96px;
+width:96px;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+}
+
+.bottomLayer
+{
+	position: absolute; 
+	margin-left: 0px; 
+	margin-top: 0px;
+}
+
+.topLayer
+{
+	position: absolute; 
+	margin-left:0px; 
+	margin-top:0px; 
+	width: 96px; 
+	color: red;
+	font-family: sans-serif;
+	text-align: center; 
+	line-height: 100px; 
+	font-size: 32px; 
+	/*background-color:rgba(0,0,0,0);*/
+	opacity:1.0;
+}
+
+.defaultLayer
+{
+	position: absolute; 
+	margin-left:0px; 
+	margin-top:0px; 
+	width: 96px;
+	height: 96px;
+}
+
+.albumSelector
+{
+	height:190px;
+	width: 190px;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+}
+
+.tiles
+{
+height: 96px;
+width: 96px;
+background:url(JB2.jpg);
+
+}
+
+.VU
+{
+height: 96px;
+width: 96px;
+background:url(VU.jpg);
+}
+
+.FMR
+{
+height: 96px;
+width: 96px;
+background:url(FMR.jpg);
+}
+
+.PL
+{
+height: 96px;
+width: 96px;
+background:url(PL.jpg);
+}
+
+#img0, #img4, #img8, #img12 {
+	background-position-x:0px; 
+}
+
+#img1, #img5, #img9, #img13 {
+	background-position-x:-100px; 
+}
+
+#img2, #img6, #img10, #img14{
+	background-position-x:-200px;
+}
+
+#img3, #img7, #img11{
+	background-position-x:-300px;
+}
+
+#img0, #img1, #img2, #img3 {
+	background-position-y:0px;
+}
+
+#img4, #img5, #img6, #img7 {
+	background-position-y:-100px; 
+}
+
+#img8, #img9, #img10, #img11 {
+	background-position-y:-200px;
+}
+
+#img12, #img13, #img14 {
+	background-position-y:-300px;
+}
+
+button
+{
+margin-left: 275px;
+margin-top: 525px;
+}
+
+#admin
+{
+position: absolute;
+top: 525px;
+left: 100px;
+}
+
+#guess_2
+{
+	position: absolute;
+	top:575px;
+	left:100px;
+}
