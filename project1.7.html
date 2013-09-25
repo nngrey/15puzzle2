@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="project1.2.css">
+	<script type="text/javascript" src="project1.8.js"></script>
+</head>
+<body>
+	
+
+<img class="albumSelector" id="album1" src="JB2.jpg" style="position: absolute; margin-left:550px; margin-top:100px" onclick = "picSwitch('tiles')" onmouseover = "highlight2(this)" onmouseout = "endHighlight2(this)">
+
+<img class="albumSelector" id="album2" src="VU.jpg" style="position: absolute; margin-left:550px; margin-top:310px" onclick = "picSwitch('VU')" onmouseover = "highlight2(this)" onmouseout = "endHighlight2(this)">
+
+<img class="albumSelector" id="album3" src="FMR.jpg" style="position: absolute; margin-left:800px; margin-top:100px" onclick = "picSwitch('FMR')" onmouseover = "highlight2(this)" onmouseout = "endHighlight2(this)">
+
+<img class="albumSelector" id="album4" src="PL.jpg" style="position: absolute; margin-left:800px; margin-top:310px" onclick = "picSwitch('PL')" onmouseover = "highlight2(this)" onmouseout = "endHighlight2(this)">
+
+<div class="container" id = "box0" style="margin-left:100px; margin-top:100px" onmouseover = "highlight('box0')" onmouseout = "endHighlight('box0')" onclick = "move('box0')"> 
+	<div><img class = "defaultLayer" src="old/images/JB1.jpg" /></div>	
+	<div class="bottomLayer"><img class = "tiles" id = "img0" src=""/></div>
+	<div class="topLayer">1</div>
+</div>
+
+<div class="container" id = "box1" style="margin-left:200px; margin-top:100px" onmouseover = "highlight('box1')" onmouseout = "endHighlight('box1')" onclick = "move('box1')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img1" src=""/></div>
+	<div class="topLayer">2</div>		
+</div>
+
+<div class="container" id = "box2" style="margin-left:300px; margin-top:100px" onmouseover = "highlight('box2')" onmouseout = "endHighlight('box2')" onclick = "move('box2')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img2" src=""/></div>
+	<div class="topLayer">3</div>		
+</div>
+
+<div class="container" id = "box3" style="margin-left:400px; margin-top:100px" onmouseover = "highlight('box3')" onmouseout = "endHighlight('box3')" onclick = "move('box3')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img3" src=""/></div>
+	<div class="topLayer">4</div>		
+</div>
+
+<div class="container" id = "box4" style="margin-left:100px; margin-top:200px" onmouseover = "highlight('box4')" onmouseout = "endHighlight('box4')" onclick = "move('box4')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img4" src=""/></div>
+	<div class="topLayer">5</div>		
+</div>
+
+<div class="container" id = "box5" style="margin-left:200px; margin-top:200px" onmouseover = "highlight('box5')" onmouseout = "endHighlight('box5')" onclick = "move('box5')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img5" src=""/></div>
+	<div class="topLayer">6</div>		
+</div>
+
+<div class="container" id = "box6" style="margin-left:300px; margin-top:200px" onmouseover = "highlight('box6')" onmouseout = "endHighlight('box6')" onclick = "move('box6')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img6" src=""/></div>
+	<div class="topLayer">7</div>		
+</div>
+
+<div class="container" id = "box7" style="margin-left:400px; margin-top:200px" onmouseover = "highlight('box7')" onmouseout = "endHighlight('box7')" onclick = "move('box7')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img7" src=""/></div>
+	<div class="topLayer">8</div>		
+</div>
+
+<div class="container" id = "box8" style="margin-left:100px; margin-top:300px" onmouseover = "highlight('box8')" onmouseout = "endHighlight('box8')" onclick = "move('box8')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img8" src=""/></div>
+	<div class="topLayer">9</div>		
+</div>
+
+<div class="container" id = "box9" style="margin-left:200px; margin-top:300px" onmouseover = "highlight('box9')" onmouseout = "endHighlight('box9')" onclick = "move('box9')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img9" src=""/></div>
+	<div class="topLayer">10</div>		
+</div>
+
+<div class="container" id = "box10" style="margin-left:300px; margin-top:300px" onmouseover = "highlight('box10')" onmouseout = "endHighlight('box10')" onclick = "move('box10')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img10" src=""/></div>
+	<div class="topLayer">11</div>		
+</div>
+
+<div class="container" id = "box11" style="margin-left:400px; margin-top:300px" onmouseover = "highlight('box11')" onmouseout = "endHighlight('box11')" onclick = "move('box11')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img11" src=""/></div>
+	<div class="topLayer">12</div>		
+</div>
+
+<div class="container" id = "box12" style="margin-left:100px; margin-top:400px" onmouseover = "highlight('box12')" onmouseout = "endHighlight('box12')" onclick = "move('box12')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img12" src=""/></div>
+	<div class="topLayer">13</div>		
+</div>
+
+<div class="container" id = "box13" style="margin-left:200px; margin-top:400px" onmouseover = "highlight('box13')" onmouseout = "endHighlight('box13')" onclick = "move('box13')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img13" src=""/></div>
+	<div class="topLayer">14</div>		
+</div>
+
+<div class="container" id = "box14" style="margin-left:300px; margin-top:400px" onmouseover = "highlight('box14')" onmouseout = "endHighlight('box14')" onclick = "move('box14')"> 
+	<div class="bottomLayer"><img class = "tiles" id = "img14" src=""/></div>
+	<div class="topLayer">15</div>		
+</div>
+
+<div class="container" id = "boxW" style="margin-left:400px; margin-top:400px"> 
+	<div class="bottomLayer"><!--img src="W.jpg"/--></div>
+	<div class="topLayer"></div>		
+</div>
+
+<button onclick="shuffle()">shuffle</button>
+
+</body>
+</html>
