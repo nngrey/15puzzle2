@@ -1,3 +1,3 @@
-# 15puzzle2
+# GSU 15puzzle2
 
-Assignment from Georgia State Web Development class.
+Assignment from Georgia State Fundamentals of Web Development class.
